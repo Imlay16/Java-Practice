@@ -13,5 +13,4 @@ public abstract class Product {
     public abstract String getName();
     public abstract int getTotalPrice();
 
-    public abstract int getDeliveryCharge(double weight, int price);
 }
