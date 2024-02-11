@@ -1,0 +1,11 @@
+@startuml
+
+class BusinessContact extends Contact
+class PersonalContact extends Contact
+
+class ContacMain
+class AddressBook
+
+AddressBook *- Contact : contains
+
+@enduml

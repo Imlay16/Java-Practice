@@ -1,5 +1,7 @@
 package assignments.WeeklyQuiz.Week3;
 
+import java.util.Comparator;
+
 public class Contact {
 
     private String name;
@@ -12,5 +14,4 @@ public class Contact {
 
     public String getName() {return name;}
     public String getPhoneNumber() {return phoneNumber;}
-
 }
